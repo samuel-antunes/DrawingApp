@@ -1,8 +1,8 @@
 import express, { Express, Request, Response } from "express";
 
-const cors = require("cors");
+import cors from "cors";
 
-const http = require("http");
+import http from "http";
 const app: Express = express();
 
 type roomContent = {
