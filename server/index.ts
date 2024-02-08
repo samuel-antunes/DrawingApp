@@ -13,7 +13,6 @@ type roomContent = {
 app.use(
   cors({
     origin: "*",
-    credentials: true,
   })
 );
 
